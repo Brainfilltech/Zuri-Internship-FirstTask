@@ -14,5 +14,3 @@ const currentUTCTime = d.getUTCMilliseconds();
 
 document.getElementById("currentDayOfTheWeek").textContent = day;
 document.getElementById("currentUTCTime").textContent = currentUTCTime;
-
-console.log(currentUTCTime, currentUTCDate, day);
