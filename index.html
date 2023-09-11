@@ -7,14 +7,23 @@
     <title>Page Creation</title>
 </head>
 <body>
-    <section>
-    <p data-testid="slackUserName">Slack Name: Ibrahim Ahmad</p>
-    <img src="IMG_20220910_174016~2.jpg" alt="Ibrahim Ahmad" data-testid="slackDisplayImage">
-    <p data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek">Current Day of the Week</p>
-    <p data-testid="currentUTCTime" id="currentUTCTime">current UTC Time:</p>
-    <p data-testid="myTrack">Track: Frontend</p><br>
-    <a href="https://github.com/Brainfilltech/Zuri-Internship-FirstTask.git" data-testid="githubURL">GitHub URL</a>
-    </section>
+    <main>
+        <div class="container">
+            <div class="header">
+                <h1 data-testid="slackUserName" class="user-name">Slack Name: Ibrahim Ahmad</h1>
+                <img data-testid="slackDisplayImage" class="user-img" src="IMG_20220910_174016~2.jpg"
+                    alt="Ibrahim Ahmad" />
+            </div>
+            <ul class="date-time-container">
+                <li class="date" id="currentDayOfTheWeek" data-testid="currentDayOfTheWeek">Current Day of the Week:</li>
+                <li class="time" id="currentUTCTime" data-testid="currentUTCTime">current UTC Time:</li>
+            </ul>
+            <div class="track-container">
+                <p class="track" data-testid="myTrack">Frontend</p>
+                <a href="https://github.com/Brainfilltech/Zuri-Internship-FirstTask.git" data-testid="githuubURL">GitHub Repo</a>
+            </div>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
