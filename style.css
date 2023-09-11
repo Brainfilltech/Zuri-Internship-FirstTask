@@ -1,8 +1,22 @@
 body{
-    height: 20vh;
+    height: 100vh;
+}
+section{
+    height: 60vh;
+    background-color: rgb(247, 177, 204);
+    width: 15rem;
+    text-align: center;
+    padding-left: 0.4rem;
+    color: rgb(194, 42, 113);
+}
+
+p{
+    padding-top: 1rem;
+    line-height: 2px;
 }
 
 img{
     width: 10rem;
     height: 8rem;
+
 }
